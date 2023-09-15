@@ -89,6 +89,8 @@ export const MuiButton = () => {
                     <Button onClick={() => alert('Right click')}>Right</Button>
                 </ButtonGroup>
             </Stack>
+
+            
         </Stack>
     )
 }
