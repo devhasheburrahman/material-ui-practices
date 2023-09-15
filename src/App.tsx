@@ -1,13 +1,13 @@
-
-import { Typography } from '@mui/material';
+ 
 import './App.css';
-import { MuiTypography } from './Components/MuiTypography';
+// import { MuiTypography } from './Components/MuiTypography';
+import { MuiButton } from './Components/MuiButton';
 
 function App() {
   return (
     <div className="App">
-      <MuiTypography></MuiTypography>
-      <Typography variant="h1">h1. Heading</Typography>
+      {/* <MuiTypography></MuiTypography> */}
+      <MuiButton />
 
     </div>
   );
