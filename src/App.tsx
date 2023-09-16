@@ -5,6 +5,7 @@ import { MuiAutoComplete } from './Components/MuiAutoComplete';
 // import { MuiBox } from './Components/MuiBox';
 import { MuiCard } from './Components/MuiCard';
 import MuiImageList from './Components/MuiImageList';
+import { MuiLink } from './Components/MuiLink';
 import { MuiNavbar } from './Components/MuiNavbar';
 // import { MuiCheckBox } from './Components/MuiCheckBox';
 // import { MuiPhotoUploding } from './Components/MuiPhotoUploding';
@@ -34,6 +35,7 @@ function App() {
       <MuAccordion/> */}
       {/* <MuiImageList/> */}
       <MuiNavbar />
+      <MuiLink />
     </div>
   );
 }
