@@ -2,7 +2,7 @@ import { Box, Stack, Divider, Grid ,Paper } from "@mui/material"
 
 export const MuiBox = () => {
     return (
-        <Paper sx={{padding:'32px'}} elevation={4}>
+        <Paper sx={{padding:'32px' }}  elevation={4}>
             <Stack sx={{
                 border: '1px solid'
             }} direction='row'

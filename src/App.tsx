@@ -1,7 +1,8 @@
 
 import './App.css';
 import { MuiAutoComplete } from './Components/MuiAutoComplete';
-import { MuiBox } from './Components/MuiBox';
+// import { MuiBox } from './Components/MuiBox';
+import { MuiCard } from './Components/MuiCard';
 // import { MuiCheckBox } from './Components/MuiCheckBox';
 // import { MuiPhotoUploding } from './Components/MuiPhotoUploding';
 // import { MuiRadioButton } from './Components/MuiRadioButton';
@@ -25,7 +26,8 @@ function App() {
       {/* <MuiSwitch />
       <MuiRating />
       <MuiAutoComplete  /> */}
-      <MuiBox />
+      {/* <MuiBox /> */}
+      <MuiCard/>
     </div>
   );
 }
