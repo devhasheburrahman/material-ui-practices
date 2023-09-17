@@ -9,6 +9,7 @@ import { MuiDrawer } from './Components/MuiDrawer';
 import MuiImageList from './Components/MuiImageList';
 import { MuiLink } from './Components/MuiLink';
 import { MuiNavbar } from './Components/MuiNavbar';
+import { MuiSpreedDail } from './Components/MuiSpreedDail';
 // import { MuiCheckBox } from './Components/MuiCheckBox';
 // import { MuiPhotoUploding } from './Components/MuiPhotoUploding';
 // import { MuiRadioButton } from './Components/MuiRadioButton';
@@ -36,10 +37,11 @@ function App() {
       {/* <MuiCard/>
       <MuAccordion/> */}
       {/* <MuiImageList/> */}
-      <MuiNavbar />
-      <MuiLink />
+      {/* <MuiNavbar /> */}
+      {/* <MuiLink />
       <MuiBreadcrumn />
-      <MuiDrawer/>
+      <MuiDrawer/> */}
+      <MuiSpreedDail/>
     </div>
   );
 }

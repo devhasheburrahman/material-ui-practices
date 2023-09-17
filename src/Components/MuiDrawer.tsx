@@ -14,7 +14,7 @@ export const MuiDrawer = () => {
             <Drawer anchor="left"
                 open={isDrawerOpen}
                 onClose={() => setIsDrawerOpen(false)} >
-                <Box p={2} width='250px' textAlign='center' role='presentation'>
+                <Box p={2} width='250px' textAlign='center' role='presentation'> 
                     <Typography variant="h6" component='div'>
                         side panel
                     </Typography>
