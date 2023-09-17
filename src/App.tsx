@@ -2,6 +2,7 @@
 import './App.css';
 import { MuAccordion } from './Components/MuAccordion';
 import { MuiAutoComplete } from './Components/MuiAutoComplete';
+import { MuiBottomNAvigation } from './Components/MuiBottomNAvigation';
 import { MuiBreadcrumn } from './Components/MuiBreadcrumn';
 // import { MuiBox } from './Components/MuiBox';
 import { MuiCard } from './Components/MuiCard';
@@ -41,7 +42,8 @@ function App() {
       {/* <MuiLink />
       <MuiBreadcrumn />
       <MuiDrawer/> */}
-      <MuiSpreedDail/>
+      {/* <MuiSpreedDail/> */}
+      <MuiBottomNAvigation/>
     </div>
   );
 }
