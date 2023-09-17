@@ -12,6 +12,7 @@ import MuiImageList from './Components/MuiImageList';
 import { MuiLink } from './Components/MuiLink';
 import { MuiNavbar } from './Components/MuiNavbar';
 import { MuiSpreedDail } from './Components/MuiSpreedDail';
+import { MuiBudge } from './Components/MuiBudge';
 // import { MuiCheckBox } from './Components/MuiCheckBox';
 // import { MuiPhotoUploding } from './Components/MuiPhotoUploding';
 // import { MuiRadioButton } from './Components/MuiRadioButton';
@@ -45,7 +46,8 @@ function App() {
       <MuiDrawer/> */}
       <MuiSpreedDail />
       <MuiBottomNAvigation />
-      <MuiAvatar />
+      {/* <MuiAvatar /> */}
+      <MuiBudge/>
     </div>
   );
 }
