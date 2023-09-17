@@ -17,6 +17,7 @@ import { MuiChip } from './Components/MuiChip';
 import { Tooltip } from '@mui/material';
 import { MuiTooltips } from './Components/MuiTooltips';
 import { MuiTable } from './Components/MuiTable';
+import { MuiAlert } from './Components/MuiAlert';
 // import { MuiCheckBox } from './Components/MuiCheckBox';
 // import { MuiPhotoUploding } from './Components/MuiPhotoUploding';
 // import { MuiRadioButton } from './Components/MuiRadioButton';
@@ -54,7 +55,8 @@ function App() {
       {/* <MuiBudge/> */}
       {/* <MuiChip />
       <MuiTooltips /> */}
-      <MuiTable/>
+      {/* <MuiTable/> */}
+      <MuiAlert />
     </div>
   );
 }
