@@ -5,6 +5,7 @@ import { MuiAutoComplete } from './Components/MuiAutoComplete';
 import { MuiBreadcrumn } from './Components/MuiBreadcrumn';
 // import { MuiBox } from './Components/MuiBox';
 import { MuiCard } from './Components/MuiCard';
+import { MuiDrawer } from './Components/MuiDrawer';
 import MuiImageList from './Components/MuiImageList';
 import { MuiLink } from './Components/MuiLink';
 import { MuiNavbar } from './Components/MuiNavbar';
@@ -38,6 +39,7 @@ function App() {
       <MuiNavbar />
       <MuiLink />
       <MuiBreadcrumn />
+      <MuiDrawer/>
     </div>
   );
 }
