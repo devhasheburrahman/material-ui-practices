@@ -20,6 +20,7 @@ import { MuiTable } from './Components/MuiTable';
 import { MuiAlert } from './Components/MuiAlert';
 import { MuiSnackBer } from './Components/MuiSnackBer';
 import MuiDialog from './Components/MuiDialog';
+import { MuiProgress } from './Components/MuiProgress';
 // import { MuiCheckBox } from './Components/MuiCheckBox';
 // import { MuiPhotoUploding } from './Components/MuiPhotoUploding';
 // import { MuiRadioButton } from './Components/MuiRadioButton';
@@ -60,7 +61,8 @@ function App() {
       {/* <MuiTable/> */}
       {/* <MuiAlert /> */}
       {/* <MuiSnackBer /> */}
-      <MuiDialog />
+      {/* <MuiDialog /> */}
+      <MuiProgress />
     </div>
   );
 }
