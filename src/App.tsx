@@ -22,6 +22,7 @@ import { MuiSnackBer } from './Components/MuiSnackBer';
 import MuiDialog from './Components/MuiDialog';
 import { MuiProgress } from './Components/MuiProgress';
 import { MuiSelection } from './Components/MuiSelection';
+import LabTabs from './Components/LabTab';
 // import { MuiCheckBox } from './Components/MuiCheckBox';
 // import { MuiPhotoUploding } from './Components/MuiPhotoUploding';
 // import { MuiRadioButton } from './Components/MuiRadioButton';
@@ -64,7 +65,8 @@ function App() {
       {/* <MuiSnackBer /> */}
       {/* <MuiDialog /> */}
       {/* <MuiProgress /> */}
-      <MuiSelection />
+      {/* <MuiSelection /> */}
+      <LabTabs />
     </div>
   );
 }
