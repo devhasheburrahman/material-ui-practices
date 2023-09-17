@@ -13,6 +13,10 @@ import { MuiLink } from './Components/MuiLink';
 import { MuiNavbar } from './Components/MuiNavbar';
 import { MuiSpreedDail } from './Components/MuiSpreedDail';
 import { MuiBudge } from './Components/MuiBudge';
+import { MuiChip } from './Components/MuiChip';
+import { Tooltip } from '@mui/material';
+import { MuiTooltips } from './Components/MuiTooltips';
+import { MuiTable } from './Components/MuiTable';
 // import { MuiCheckBox } from './Components/MuiCheckBox';
 // import { MuiPhotoUploding } from './Components/MuiPhotoUploding';
 // import { MuiRadioButton } from './Components/MuiRadioButton';
@@ -44,10 +48,13 @@ function App() {
       {/* <MuiLink />
       <MuiBreadcrumn />
       <MuiDrawer/> */}
-      <MuiSpreedDail />
-      <MuiBottomNAvigation />
+      {/* <MuiSpreedDail />
+      <MuiBottomNAvigation /> */}
       {/* <MuiAvatar /> */}
-      <MuiBudge/>
+      {/* <MuiBudge/> */}
+      {/* <MuiChip />
+      <MuiTooltips /> */}
+      <MuiTable/>
     </div>
   );
 }
