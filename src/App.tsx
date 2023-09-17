@@ -19,6 +19,7 @@ import { MuiTooltips } from './Components/MuiTooltips';
 import { MuiTable } from './Components/MuiTable';
 import { MuiAlert } from './Components/MuiAlert';
 import { MuiSnackBer } from './Components/MuiSnackBer';
+import MuiDialog from './Components/MuiDialog';
 // import { MuiCheckBox } from './Components/MuiCheckBox';
 // import { MuiPhotoUploding } from './Components/MuiPhotoUploding';
 // import { MuiRadioButton } from './Components/MuiRadioButton';
@@ -58,7 +59,8 @@ function App() {
       <MuiTooltips /> */}
       {/* <MuiTable/> */}
       {/* <MuiAlert /> */}
-      <MuiSnackBer />
+      {/* <MuiSnackBer /> */}
+      <MuiDialog />
     </div>
   );
 }
